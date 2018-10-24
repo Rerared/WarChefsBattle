@@ -1,10 +1,10 @@
 package com.WarChefsBattle.Units;
 
 public class Knite extends Unit {
-	int attack = 3;
-	int hp = 5;
-	String typeAttack = "PHYS";
-	String typeDefence = "PHYS";
+	private int attack = 3;
+	private int hp = 5;
+	private String typeAttack = "PHYS";
+	private String typeDefence = "PHYS";
 	public int getAttack() {
 		return attack;
 	}
